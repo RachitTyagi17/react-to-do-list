@@ -75,7 +75,7 @@ useEffect(() => {
   return (
     <>
       <Navbar />
-      <div className="main bg-violet-100 rounded-sm sm:w-1/2 mx-auto p-2 mt-2 min-h-screen">
+      <div className="main bg-violet-100 rounded-sm sm:w-[80%] mx-auto p-2 mt-2 min-h-screen">
         <div className="input mt-3 flex flex-col">
           <h1 className='font-bold text-xl sm:text-2xl mb-1 self-center'>iTask - Your Daily Task Manager</h1>
           <input onKeyDown={(e) => { if (e.key === "Enter") { handleAdd(); } }} onChange={handleChange} value={todo} type="text" className='h-8 w-full border-2 rounded-sm' />
