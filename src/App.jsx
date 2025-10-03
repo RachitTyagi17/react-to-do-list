@@ -18,7 +18,7 @@ useEffect(() => {
       setTodos(todos);
     } catch (error) {
       console.error("Failed to parse todos from localStorage:", error);
-      setTodos([]); // fallback to empty array if JSON is invalid
+      setTodos([]); 
     }
   }
 }, []);
